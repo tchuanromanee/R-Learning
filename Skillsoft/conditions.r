@@ -42,3 +42,10 @@ b
 while (b > 0) {
   b < b - 1
 }
+
+# apply function
+m <- matrix(c(1,2,4,2), nrow=2, ncol=2)
+m
+apply(m, 1, sum) # sum of the rows
+apply(m, 2, sum) # sum of the columns
+apply(m, 2, sort) # sort the coloumns
