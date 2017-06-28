@@ -19,3 +19,9 @@ typeof(b)
 typeof(x + y) # add double + int -> double
 typeof(y + z) # integer + complex -> complex
 typeof(x + z) # double + complex -> complex
+
+# Strings
+s1 <- "hehehehehehe"
+typeof(sl) # returns "character" ie. a string
+s2 <- "hohohohohoho"
+paste(s1,s2) # paste concats strings with a single space between
