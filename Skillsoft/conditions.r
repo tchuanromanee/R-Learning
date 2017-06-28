@@ -18,5 +18,5 @@ n <- c(6,5,4)
 # & vectorized, 
 # && first element only
 (m < 2) & (n > 5)
-
+(m < 2) && (n > 5)
 # & is vector friendly, && is for scalars only
