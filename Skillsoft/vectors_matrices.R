@@ -31,3 +31,28 @@ v
 
 v <- rep(1:5,5) # 1 2 3 4 5 repeated 5 times
 v
+
+# matrix using matrix(...)
+m <- matrix(1:4, 2, 2) # a 2x2 matrix of numbers from 1 to 4
+m
+
+# matrix using dim
+v <- 1:4
+dim(v) <- v(2,2)
+v
+
+# column bind vectors
+cbind(c(1,2),c(2,1))
+
+# row bind vectors
+rbind(c(3,4),c(4,3))
+
+# operation on a matrix
+m * 2
+
+# multiplying 2 matrices
+m * m # For each elem in the matrix multiply by corresponding elem
+
+# create a diagonal matrix from vector
+v <- c(1,2,3)
+diag(v) # Creates a diagonal of the given matrix with the rest being 0s
